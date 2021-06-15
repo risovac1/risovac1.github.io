@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .CheckerBoard
+{
+ height: 400px;
+ width: 400px;
+ display: inline-block;
+ background-color:  #663300;
+ border: 5px solid  #663300;
+ position: absolute;
+ 
+}
+.inner
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    
+}
+.inner2
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    
+}
+.inner3
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    
+}
+.inner4
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    
+}
+.inner5
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    
+}
+.inner6
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    
+}
+.inner7
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    
+}
+.inner8
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    
+}
+.inner9
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:50px;
+}
+.inner10
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:50px;
+    
+}
+.inner11
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:50px;
+}
+.inner12
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:50px;
+}
+.inner13
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:50px;
+}
+.inner14
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:50px;
+}
+.inner15
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:50px;
+}
+.inner16
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:50px;
+}
+.inner17
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:100px;
+}
+.inner18
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:100px;
+}
+.inner19
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:100px;
+}
+.inner20
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:100px;
+}
+.inner21
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:100px;
+}
+.inner22
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:100px;
+}
+.inner23
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:100px;
+}
+.inner24
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:100px;
+}
+.inner25
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:150px;
+}
+.inner26
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:150px;
+}
+.inner27
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:150px;
+}
+.inner28
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:150px;
+}
+.inner29
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:150px;
+}
+.inner30
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:150px;
+    
+}
+.inner31
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:150px;
+}
+.inner32
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:150px;
+}
+.inner33
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:200px;
+}
+.inner34
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:200px;
+}
+.inner35
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:200px;
+}
+.inner36
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:200px;
+}
+.inner37
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:200px;
+}
+.inner38
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:200px;
+}
+.inner39
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:200px;
+}
+.inner40
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:200px;
+}
+.inner41
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:250px;
+}
+.inner42
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:250px;
+}
+.inner43
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:250px;
+}
+.inner44
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:250px;
+}
+.inner45
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:250px;
+}
+.inner46
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:250px;
+}
+.inner47
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:250px;
+}
+.inner48
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:250px;
+}
+.inner49
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:300px;
+}
+.inner50
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:300px;
+}
+.inner51
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:300px;
+}
+.inner52
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:300px;
+}
+.inner53
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:300px;
+}
+.inner54
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:300px;
+}
+.inner55
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:300px;
+}
+.inner56
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:300px;
+}
+
+
+.inner57
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:350px;
+}
+.inner58
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top:350px;
+}
+.inner59
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top:350px;
+}
+.inner60
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    top:350px;
+}
+.inner61
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 200px;
+    top:350px;
+}
+.inner62
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    top:350px;
+}
+.inner63
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top:350px;
+}
+.inner64
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top:350px;
+}
+.circle
+{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 200px;
+  
+}
+#brown
+{
+    background-color:  #663300;
+}
+#red
+{
+    background-color:   #ff0000
+    ;
+}
+#black
+{
+    background-color: black;
+}
+#ffcc66
+{
+    background-color:#ffcc66;
+}
+    </style>
+</head>
+<body>
+    <div class="CheckerBoard">
+        <div class="inner" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner2" id="ffcc66"></div>
+        <div class="inner3" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner4" id="ffcc66"></div>
+        <div class="inner5" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner6" id="ffcc66"></div>
+        <div class="inner7" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner8" id="ffcc66"></div>
+        <div class="inner9" id="ffcc66"></div>
+        <div class="inner10" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner11" id="ffcc66"></div>
+        <div class="inner12" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner13" id="ffcc66"></div>
+        <div class="inner14" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner15" id="ffcc66"></div>
+        <div class="inner16" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner17" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner18" id="ffcc66"></div>
+        <div class="inner19" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner20" id="ffcc66"></div>
+        <div class="inner21" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner22" id="ffcc66"></div>
+        <div class="inner23" id="black">
+            <div class="circle" id="red"></div>
+        </div>
+        <div class="inner24" id="ffcc66"></div>
+        <div class="inner25" id="ffcc66"></div>
+        <div class="inner26" id="black"></div>
+        <div class="inner27" id="ffcc66"></div>
+        <div class="inner28" id="black"></div>
+        <div class="inner29" id="ffcc66"></div>
+        <div class="inner30" id="black"></div>
+        <div class="inner31" id="ffcc66"></div>
+        <div class="inner32" id="black"></div>
+        <div class="inner33" id="black"></div>
+        <div class="inner34" id="ffcc66"></div>
+        <div class="inner35" id="black"></div>
+        <div class="inner36" id="ffcc66"></div>
+        <div class="inner37" id="black"></div>
+        <div class="inner38" id="ffcc66"></div>
+        <div class="inner39" id="black"></div>
+        <div class="inner40" id="ffcc66"></div>
+        <div class="inner41" id="ffcc66"></div>
+        <div class="inner42" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner43" id="ffcc66"></div>
+        <div class="inner44" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner45" id="ffcc66"></div>
+        <div class="inner46" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner47" id="ffcc66"></div>
+        <div class="inner48" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner49" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner50" id="ffcc66"></div>
+        <div class="inner51" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner52" id="ffcc66"></div>
+        <div class="inner53" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner54" id="ffcc66"></div>
+        <div class="inner55" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner56" id="ffcc66"></div>
+        <div class="inner57" id="ffcc66"></div>
+        <div class="inner58" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner59" id="ffcc66"></div>
+        <div class="inner60" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner61" id="ffcc66"></div>
+        <div class="inner62" id="black">
+            <div class="circle"  id="brown"></div>
+        </div>
+        <div class="inner63" id="ffcc66"></div>
+        <div class="inner64" id="black">
+            <div class="circle" id="brown"></div>
+        </div>
+    </div>
+</body>
+</html>
